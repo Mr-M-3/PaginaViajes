@@ -1,6 +1,7 @@
-body {  
+body {
     background-size: cover;
     text-align: center;
+    zoom: 100%;
 }
 
 header {
@@ -15,13 +16,16 @@ header img[alt="Logo de la empresa"] {
     height: 3.75rem;
     margin-right: 1.25rem;
 }
-
+.buscador input{
+    background-color: #d3e0eb;
+}
 nav {
     display: flex;
     gap: 1.25rem;
     flex: 1;
     justify-content: center;
 }
+
 nav a {
     text-decoration: none;
     color: #ffffff;
@@ -30,6 +34,7 @@ nav a {
     padding: 0.3125rem 0.625rem;
     transition: background 0.2s;
 }
+
 nav a:hover {
     background: #e0e0e0;
     border-radius: 0.3125rem;
@@ -41,12 +46,14 @@ nav a:hover {
     margin-left: 1.25rem;
     margin-right: 0.625rem;
 }
+
 .buscador input {
     padding: 0.3125rem;
     border-radius: 0.25rem 0 0 0.25rem;
     border: 0.0625rem solid #ccc;
     outline: none;
 }
+
 .buscador button {
     padding: 0.3125rem 0.625rem;
     border-radius: 0 0.25rem 0.25rem 0;
@@ -60,15 +67,17 @@ header button[type="button"] {
     margin-left: 0.625rem;
     padding: 0.375rem 0.875rem;
     border: none;
-    border-radius: 0.25rem;
+    border-radius: 1.875rem;
+    padding: 0.8rem 2.5rem;
     background: #1976d2;
     color: #fff;
     font-weight: bold;
     cursor: pointer;
     transition: background 0.2s;
 }
+
 header button[type="button"]:hover {
-    background: #125ea2;
+    background: #125ea2;    
 }
 
 header img[alt="Foto de usuario"] {
@@ -78,13 +87,14 @@ header img[alt="Foto de usuario"] {
     margin-left: 1.125rem;
     object-fit: cover;
 }
+
 #entrada {
     background: url("FONDOS_PARA_WEB/Playa.jpg");
     background-size: cover;
     border-radius: 1.25rem;
     padding: 3.5rem 2.5rem 3rem 2.5rem;
     margin: 2.5rem auto 0 auto;
-    max-width: 120rem;
+    max-width: 130rem;
     height: 40rem;
     display: flex;
     flex-direction: column;
@@ -122,6 +132,7 @@ header img[alt="Foto de usuario"] {
     box-shadow: 0 0.125rem 0.5rem rgba(25, 118, 210, 0.15);
     transition: background 0.2s, transform 0.2s;
 }
+
 #entrada button:hover {
     background: #125ea2;
     transform: scale(1.04);
