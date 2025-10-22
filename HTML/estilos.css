@@ -95,7 +95,7 @@ header img[alt="Foto de usuario"] {
     object-fit: cover;
 }
 
-/* --- Sección de entrada --- */
+/* --- CSS para la sección de entrada --- */
 #entrada {
     background: url("FONDOS_PARA_WEB/Playa.jpg");
     background-size: cover;
@@ -154,7 +154,7 @@ header img[alt="Foto de usuario"] {
     letter-spacing: 0.0625rem;
 }
 
-/* --- Ofertas: tarjetas con estilo --- */
+/* --- Css para las tarjetas de Ofertas--- */
 #ofertas {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
