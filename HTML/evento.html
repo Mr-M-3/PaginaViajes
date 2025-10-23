@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oktoberfest Granada 2025</title>
+    <link rel="stylesheet" href="evento.css">
+</head>
+
+<body background="FONDOS_PARA_WEB/FondoPagina.png">
+    <header>
+        <img src="FONDOS_PARA_WEB/LogoPagina.png" alt="Logo de la empresa">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="#">Destinos</a>
+            <a href="#">Ofertas</a>
+            <a href="#">Reservas</a>
+            <a href="#">Contacto</a>
+            <a href="evento.html">Evento</a>
+        </nav>
+        <form action="#" method="get" class="buscador">
+            <input type="text" name="q" placeholder="Buscar destinos, ofertas...">
+            <button type="submit">Buscar</button>
+        </form>
+        <button type="button">Iniciar sesión</button>
+        <button type="button">Registrarse</button>
+        <img src="FONDOS_PARA_WEB/Avatar.png" alt="Foto de usuario">
+    </header>
+
+    <main>
+        <section id="presentacion-evento">
+            <h1 class="titulo">Oktoberfest Granada 2025</h1>
+            <p>¡El espíritu bávaro llega a Granada! Vive una experiencia inolvidable llena de cerveza artesanal, música tradicional alemana y gastronomía única. Un evento para disfrutar con amigos y familia.</p>
+            
+            <video width="640" height="360" controls poster="ImagenesDestinos/Oktoberfest.jpg">
+                <source src="videos/oktoberfest.mp4" type="video/mp4">
+                Tu navegador no soporta video HTML5.
+            </video>
+        </section>
+
+        <section id="detalles-evento">
+            <article>
+                <h2>📅 Fecha y Lugar</h2>
+                <p>Del <strong>10 al 13 de octubre de 2025</strong> en el <strong>Parque Ferial de Armilla (Granada)</strong>.</p>
+            </article>
+
+            <article>
+                <h2>🎵 Artistas Invitados</h2>
+                <ul>
+                    <li>Bavarian Band</li>
+                    <li>Los Munich Brothers</li>
+                    <li>DJ Hans & Friends</li>
+                    <li>Orquesta Alhambra</li>
+                </ul>
+            </article>
+
+            <article>
+                <h2>🕓 Programa del Evento</h2>
+                <table border="1" cellspacing="0" cellpadding="8" align="center">
+                    <tr>
+                        <th>Día</th>
+                        <th>Actividad</th>
+                        <th>Hora</th>
+                    </tr>
+                    <tr>
+                        <td>Viernes 10</td>
+                        <td>Inauguración y desfile tradicional</td>
+                        <td>18:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado 11</td>
+                        <td>Concierto “Bavarian Band”</td>
+                        <td>20:00</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo 12</td>
+                        <td>Competencia de cerveza artesanal</td>
+                        <td>17:00</td>
+                    </tr>
+                    <tr>
+                        <td>Lunes 13</td>
+                        <td>Clausura con fuegos artificiales</td>
+                        <td>22:00</td>
+                    </tr>
+                </table>
+            </article>
+        </section>
+
+        <section id="audio-evento">
+            <h2>🎶 Música Tradicional</h2>
+            <audio controls>
+                <source src="audios/polka.mp3" type="audio/mp3">
+                Tu navegador no soporta audio HTML5.
+            </audio>
+        </section>
+
+        <section id="formulario-evento">
+            <h2>🎟 Reserva tu Entrada</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre completo:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="entradas">Cantidad de entradas:</label><br>
+                <input type="number" id="entradas" name="entradas" min="1" max="10" value="1"><br><br>
+
+                <label for="comentarios">Comentarios:</label><br>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="40" placeholder="¿Vienes con amigos? Cuéntanos..."></textarea><br><br>
+
+                <button type="submit">Enviar Reserva</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Oktoberfest Granada | Diseñado por ViajesPDF</p>
+        <a href="index.html" class="boton">Volver al inicio</a>
+    </footer>
+</body>
+</html>
