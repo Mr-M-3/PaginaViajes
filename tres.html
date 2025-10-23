@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+<head>    
+    <title>Diseño de Interfaces Web</title>
+</head>  
+<body>    
+    <h1>Formulario-Resumen de HTML</h1>
+<p>Esta tabla resume las principales etiquetas de HTML vistas en el capítulo, incluyendo su definición, sintaxis y ejemplo visual.</p>
+
+<table>
+    <tr>
+        <th>Etiqueta</th>
+        <th>Definición</th>
+        <th>Sintaxis</th>
+        <th>Ejemplo</th>
+    </tr>
+    <tr>
+        <td>&lt;html&gt;</td>
+        <td>Define el inicio y fin de un documento HTML.</td>
+        <td><code>&lt;html&gt;...&lt;/html&gt;</code></td>
+        <td>Todo el contenido de la página.</td>
+    </tr>
+    <tr>
+        <td>&lt;head&gt;</td>
+        <td>Contiene información del documento (metadatos, título, etc.).</td>
+        <td><code>&lt;head&gt;...&lt;/head&gt;</code></td>
+        <td>No se muestra en la vista web.</td>
+    </tr>
+    <tr>
+        <td>&lt;title&gt;</td>
+        <td>Define el título que aparece en la pestaña del navegador.</td>
+        <td><code>&lt;title&gt;Mi web&lt;/title&gt;</code></td>
+        <td><em>Título del navegador</em></td>
+    </tr>
+    <tr>
+        <td>&lt;body&gt;</td>
+        <td>Contiene el contenido visible de la página.</td>
+        <td><code>&lt;body&gt;...&lt;/body&gt;</code></td>
+        <td>Texto, imágenes, tablas, etc.</td>
+    </tr>
+    <tr>
+        <td>&lt;h1&gt;...&lt;h6&gt;</td>
+        <td>Encabezados de diferentes niveles.</td>
+        <td><code>&lt;h1&gt;Título&lt;/h1&gt;</code></td>
+        <td><h3>Ejemplo de título</h3></td>
+    </tr>
+    <tr>
+        <td>&lt;p&gt;</td>
+        <td>Define un párrafo de texto.</td>
+        <td><code>&lt;p&gt;Texto&lt;/p&gt;</code></td>
+        <td><p>Hola, soy un párrafo.</p></td>
+    </tr>
+    <tr>
+        <td>&lt;b&gt;</td>
+        <td>Texto en negrita.</td>
+        <td><code>&lt;b&gt;Texto&lt;/b&gt;</code></td>
+        <td><b>Ejemplo</b></td>
+    </tr>
+    <tr>
+        <td>&lt;i&gt;</td>
+        <td>Texto en cursiva.</td>
+        <td><code>&lt;i&gt;Texto&lt;/i&gt;</code></td>
+        <td><i>Ejemplo</i></td>
+    </tr>
+    <tr>
+        <td>&lt;u&gt;</td>
+        <td>Texto subrayado.</td>
+        <td><code>&lt;u&gt;Texto&lt;/u&gt;</code></td>
+        <td><u>Ejemplo</u></td>
+    </tr>
+    <tr>
+        <td>&lt;a&gt;</td>
+        <td>Crea un hipervínculo.</td>
+        <td><code>&lt;a href="url"&gt;Texto&lt;/a&gt;</code></td>
+        <td><a href="https://www.google.com">Google</a></td>
+    </tr>
+    <tr>
+        <td>&lt;img&gt;</td>
+        <td>Inserta una imagen.</td>
+        <td><code>&lt;img src="ruta" alt="texto"&gt;</code></td>
+        <td><img src="img/zayas" alt="imagen" width="150"></td>
+    </tr>
+    <tr>
+        <td>&lt;ul&gt;, &lt;li&gt;</td>
+        <td>Lista no ordenada y sus elementos.</td>
+        <td><code>&lt;ul&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ul&gt;</code></td>
+        <td><ul><li>Ejemplo</li></ul></td>
+    </tr>
+    <tr>
+        <td>&lt;ol&gt;, &lt;li&gt;</td>
+        <td>Lista ordenada.</td>
+        <td><code>&lt;ol&gt;&lt;li&gt;Item&lt;/li&gt;&lt;/ol&gt;</code></td>
+        <td><ol><li>Ejemplo</li></ol></td>
+    </tr>
+    <tr>
+        <td>&lt;table&gt;</td>
+        <td>Crea una tabla.</td>
+        <td><code>&lt;table&gt;...&lt;/table&gt;</code></td>
+        <td><table border="1"><tr><td>1</td><td>2</td></tr></table></td>
+    </tr>
+    <tr>
+        <td>&lt;tr&gt; &lt;td&gt;</td>
+        <td>Define filas y celdas en una tabla.</td>
+        <td><code>&lt;tr&gt;&lt;td&gt;Dato&lt;/td&gt;&lt;/tr&gt;</code></td>
+        <td><table border="1"><tr><td>Dato</td></tr></table></td>
+    </tr>
+    <tr>
+        <td>&lt;form&gt;</td>
+        <td>Define un formulario.</td>
+        <td><code>&lt;form&gt;...&lt;/form&gt;</code></td>
+        <td><form><input type="text" placeholder="Nombre"></form></td>
+    </tr>
+    <tr>
+        <td>&lt;input&gt;</td>
+        <td>Campo de entrada.</td>
+        <td><code>&lt;input type="text"&gt;</code></td>
+        <td><input type="text" size="8"></td>
+    </tr>
+    <tr>
+        <td>&lt;button&gt;</td>
+        <td>Botón interactivo.</td>
+        <td><code>&lt;button&gt;Enviar&lt;/button&gt;</code></td>
+        <td><button>Enviar</button></td>
+    </tr>
+    <tr>
+        <td>&lt;header&gt;</td>
+        <td>Encabezado de una página o sección (HTML5).</td>
+        <td><code>&lt;header&gt;...&lt;/header&gt;</code></td>
+        <td><header><b>Encabezado</b></header></td>
+    </tr>
+    <tr>
+        <td>&lt;footer&gt;</td>
+        <td>Pie de página (HTML5).</td>
+        <td><code>&lt;footer&gt;...&lt;/footer&gt;</code></td>
+        <td><footer>© 2025</footer></td>
+    </tr>
+    <tr>
+        <td>&lt;section&gt;</td>
+        <td>Sección de contenido (HTML5).</td>
+        <td><code>&lt;section&gt;...&lt;/section&gt;</code></td>
+        <td><section>Contenido</section></td>
+    </tr>
+    <tr>
+        <td>&lt;article&gt;</td>
+        <td>Define un artículo o bloque de contenido (HTML5).</td>
+        <td><code>&lt;article&gt;...&lt;/article&gt;</code></td>
+        <td><article>Noticia</article></td>
+    </tr>
+    <tr>
+        <td>&lt;nav&gt;</td>
+        <td>Define una barra de navegación (HTML5).</td>
+        <td><code>&lt;nav&gt;...&lt;/nav&gt;</code></td>
+        <td><nav><a href="#">Inicio</a> | <a href="#">Contacto</a></nav></td>
+    </tr>
+</table>
+    </footer>
+</body> 
+</html>
