@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Viajes</title>
+</head>
+<body background="FONDOS_PARA_WEB/FondoPagina.png">
+
+ <header>
+        <img src="FONDOS_PARA_WEB/LogoPagina.png" alt="Logo de la empresa">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#ofertas">Ofertas</a>
+            <a href="calculadora.html">Calculadora de Viajes</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="index.html#sobre-nosotros">Contacto</a>
+            <a href="evento.html">Evento</a>
+        </nav>
+        <form action="#" method="get" class="buscador">
+            <input type="text" name="q" placeholder="Buscar destinos, ofertas...">
+            <button type="submit">Buscar</button>
+        </form>
+        <button type="button">Iniciar sesión</button>
+        <button type="button">Registrarse</button>
+        <img src="FONDOS_PARA_WEB/Avatar.png" alt="Foto de usuario">
+    </header>
+
+<main>
+    <h1 class="tituloCalc">Calculadora de Viajes</h1>
+    <div class="calculadora">
+        <form>
+            <div class="pantalla">
+                <input type="text" name="display" value="0" disabled>
+            </div>
+            <div class="botones">
+                <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="button" value="/" class="operador">
+
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6">
+                <input type="button" value="*" class="operador">
+
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="button" value="-" class="operador">
+
+                <input type="button" value="0">
+                <input type="button" value=".">
+                <input type="button" value="=" class="igual">
+                <input type="button" value="+" class="operador">
+                
+                <input type="reset" value="C" class="limpiar">
+            </div>
+        </form>
+    </div>
+    </main>
+</body>
+</html>

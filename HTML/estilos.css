@@ -395,3 +395,282 @@ hr {
     color: #aaa;
     font-size: 0.9em;
 }
+
+/* Estilos para la calculadora */
+.tituloCalc {
+    font-family: 'Playwrite DE SAS', sans-serif;
+    color: #ffffff;
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: 0.0625rem;
+   
+}
+.calculadora {
+    width: 18.75rem; 
+    margin: 3.125rem auto; 
+    border: 0.0625rem solid #ccc; 
+    border-radius: 0.625rem; 
+    padding: 0.625rem; 
+    background-color: #eaf2f8;
+}
+
+.pantalla {
+    margin-bottom: 0.625rem; 
+}
+
+.pantalla input {
+    width: 100%;
+    height: 3.125rem; 
+    font-size: 1.5rem; 
+    text-align: right;
+    border: 0.0625rem solid #ccc; 
+    border-radius: 0.3125rem; 
+    padding: 0.3125rem;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    color: #333;
+}
+
+.botones {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.3125rem; 
+}
+
+.botones input[type="button"],
+.botones input[type="reset"] {
+    width: 100%;
+    height: 3.125rem; 
+    font-size: 1.125rem; 
+    border: 0.0625rem solid #ccc; 
+    border-radius: 0.3125rem; 
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.2s;
+}
+
+.botones input[type="button"]:hover,
+.botones input[type="reset"]:hover {
+    background-color: #d3e0eb;
+}
+
+.igual {
+    grid-column: span 2;
+}
+
+.limpiar {
+    grid-column: span 2;
+}
+
+/*Estilos reservas*/
+.formulario-reservas form {
+    max-width: 40rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #333;
+}
+
+.formulario-reservas form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #1976d2;
+}
+
+.formulario-reservas form input[type="text"],
+.formulario-reservas form input[type="email"],
+.formulario-reservas form input[type="date"],
+.formulario-reservas form input[type="number"],
+.formulario-reservas form input[type="color"],
+.formulario-reservas form select {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+.formulario-reservas form input[type="color"] {
+    height: 3rem;
+}
+
+.formulario-reservas form input[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    background: #1976d2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.formulario-reservas form input[type="submit"]:hover {
+    background: #125ea2;
+}
+
+/*Estilos para la página de Evento */
+
+.contenido-evento {
+    max-width: 60rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: rgba(214, 214, 214, 0.9);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    color: #333;
+    text-align: left;
+}
+
+.contenido-evento section {
+    margin-bottom: 2.5rem;
+}
+
+#presentacion-evento {
+    text-align: center;
+}
+
+#presentacion-evento .titulo {
+    color: #1976d2;
+}
+
+#presentacion-evento p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 50rem;
+    margin: 0 auto 1.5rem auto;
+    line-height: 1.6;
+}
+
+#presentacion-evento video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.contenido-evento h2 {
+    font-family: 'Playwrite DE SAS', sans-serif;
+    color: #1976d2;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.125rem solid #e0e0e0;
+    padding-bottom: 0.5rem;
+}
+
+#detalles-evento {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+    gap: 1.5rem;
+}
+
+#detalles-evento article {
+    background: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+#detalles-evento ul {
+    list-style: none;
+    padding: 0;
+}
+
+#detalles-evento ul li {
+    padding: 0.25rem 0;
+}
+
+#detalles-evento table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#detalles-evento th, #detalles-evento td {
+    border: 0.0625rem solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+#detalles-evento th {
+    background-color: #1976d2;
+    color: white;
+}
+
+#audio-evento audio {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+#formulario-evento form {
+    margin-top: 1rem;
+}
+
+#formulario-evento label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #1976d2;
+}
+
+#formulario-evento input[type="text"],
+#formulario-evento input[type="email"],
+#formulario-evento input[type="number"],
+#formulario-evento textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 0.0625rem solid #ccc;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+}
+
+#formulario-evento button {
+    padding: 0.8rem 1.5rem;
+    background: #1976d2;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#formulario-evento button:hover {
+    background: #125ea2;
+}
+
+.contenido-evento + footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+.contenido-evento + footer .boton {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #1976d2;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background 0.2s;
+}
+
+.contenido-evento + footer .boton:hover {
+    background: #125ea2;
+}
+

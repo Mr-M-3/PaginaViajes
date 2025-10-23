@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservas</title>
+</head>
+<body background="FONDOS_PARA_WEB/FondoPagina.png">
+    <header>
+        <img src="FONDOS_PARA_WEB/LogoPagina.png" alt="Logo de la empresa">
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="index.html#ofertas">Ofertas</a>
+            <a href="calculadora.html">Calculadora de Viajes</a>
+            <a href="reservas.html">Reservas</a>
+            <a href="index.html#sobre-nosotros">Contacto</a>
+            <a href="evento.html">Evento</a>
+        </nav>
+        <form action="#" method="get" class="buscador">
+            <input type="text" name="q" placeholder="Buscar destinos, ofertas...">
+            <button type="submit">Buscar</button>
+        </form>
+        <button type="button">Iniciar sesión</button>
+        <button type="button">Registrarse</button>
+        <img src="FONDOS_PARA_WEB/Avatar.png" alt="Foto de usuario">
+    </header>
+<main class="formulario-reservas">
+    <form action="#" method="post">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required autofocus><br><br>
+    
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="fecha">Fecha:</label><br>
+        <input type="date" id="fecha" name="fecha"><br><br>
+    
+        <label for="numero">Número (entre -120 y 120):</label><br>
+        <input type="number" id="numero" name="numero" min="-120" max="120"><br><br>
+    
+        <label for="color">Color favorito:</label><br>
+        <input type="color" id="color" name="color"><br><br>
+    
+        <label for="modulo">Módulos de DAW2:</label><br>
+        <select id="modulo" name="modulo">
+            <option value="DEC" selected>DESARROLLO DE ENTORNO CLIENTE</option>
+            <option value="DES">DESARROLLO DE ENTORNO SERVIDOR</option>
+            <option value="DAW">DESPLIEGUE DE APLICACIONES WEB</option>
+            <option value="DIW">DISEÑO DE INTERFACES WEB</option>
+        </select><br><br>
+    
+        <input type="submit" value="Enviar">
+    </form>
+</main>
+</body>
+</html>
